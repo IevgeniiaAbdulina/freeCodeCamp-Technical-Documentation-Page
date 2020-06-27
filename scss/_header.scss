@@ -1,0 +1,18 @@
+#header {
+  padding: 30px 0;
+  background-color: $header-bg-color;
+  color: $color-light;
+  border-top: 5px solid $header-border-color;
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 3;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

@@ -1,0 +1,40 @@
+/*------------------ COLOR SYSTEM ------------------*/
+
+$color-primary: #1eb9bb;
+$color-secondary: #ec7e3c;
+$color-success: #3eb270;
+$color-info: #2e2e39;
+$color-warning: #bca238;
+$color-danger: #f44336;
+$color-light: #f2f4f3;
+$color-dark: #000000;
+
+/*------------------ COLOR VARIABLES ------------------*/
+
+$content-bg: #fff;
+$border-color: #f1efef;
+
+/*------------------ FONTS ------------------*/
+
+$main-font-family: "Roboto", sans-serif;
+$code-font-family: "Roboto Mono", monospace;
+$default-font-size: 0.937rem;
+
+$font-weight-regular: 400;
+$font-weight-bold: 700;
+
+/*------------------ SPACING ------------------*/
+
+$container-padding: 0 16px;
+$container-margin: 0 auto;
+
+/*------------------ ACTION ------------------*/
+
+$action-transition-duration: 0.25s;
+$action-transition-timing-function: ease;
+
+/*------------------ HEADER ------------------*/
+
+$header-bg-color: $color-info;
+$header-color: #fff;
+$header-border-color: $color-primary;

@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  overflow-x: hidden;
+  font-family: $main-font-family;
+}
+
+.page-wrapper {
+  min-width: 100%;
+  height: auto;
+}
+
+.container {
+  position: relative;
+  padding: $container-padding;
+  margin: $container-margin;
+}

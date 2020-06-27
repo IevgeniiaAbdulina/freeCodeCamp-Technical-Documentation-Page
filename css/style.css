@@ -1,0 +1,81 @@
+/*------------------------------------
+    [Master Stylesheet]
+
+    Project:    Technical-Documentation-Page
+    Version:    1.0.0
+------------------------------------*/
+/*-----------------------------------*/
+/* === Import template variables === */
+/*------------------ COLOR SYSTEM ------------------*/
+/*------------------ COLOR VARIABLES ------------------*/
+/*------------------ FONTS ------------------*/
+/*------------------ SPACING ------------------*/
+/*------------------ ACTION ------------------*/
+/*------------------ HEADER ------------------*/
+/*-----------------------------------*/
+/* === Core Styles === */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700");
+#header {
+  padding: 30px 0;
+  background-color: #2e2e39;
+  color: #f2f4f3;
+  border-top: 5px solid #1eb9bb;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 3;
+}
+
+#header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+}
+
+.page-wrapper {
+  min-width: 100%;
+  height: auto;
+}
+
+.container {
+  position: relative;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+#navbar {
+  min-width: 290px;
+  position: fixed;
+  width: 300px;
+  height: 100%;
+}
+
+/* mobile */
+@media (max-width: 600px) {
+  #navbar {
+    display: none;
+  }
+}
+
+/*-----------------------------------*/
+/* === Components === */
+code {
+  font-family: "Roboto Mono", monospace;
+  color: theme-colors(danger);
+  background-color: #f1f1f1;
+  padding: 2px;
+  font-size: 105%;
+}
