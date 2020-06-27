@@ -1,0 +1,21 @@
+code {
+  font-family: Consolas, "courier new";
+  color: crimson;
+  background-color: #f1f1f1;
+  padding: 2px;
+  font-size: 105%;
+}
+
+/* laptops, desktops */
+@media (min-width: 768px) {
+  #navbar {
+    float: left;
+    min-width: 300px;
+  }
+}
+/* mobile */
+@media (max-width: 600px) {
+  #navbar {
+    display: none;
+  }
+}
