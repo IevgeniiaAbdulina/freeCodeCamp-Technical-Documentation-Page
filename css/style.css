@@ -34,6 +34,34 @@
   align-items: center;
 }
 
+.logo {
+  font-size: 2em;
+}
+
+.logo .logo-icon::before {
+  display: block;
+  position: absolute;
+  content: "";
+  background-image: url(../img/logo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 4%;
+  height: 60%;
+  top: 2px;
+  background-color: #1eb9bb;
+  border: 2px solid #1eb9bb;
+}
+
+.logo .text-highlight {
+  color: #1eb9bb;
+  padding-left: 30px;
+}
+
+.logo .text-bold {
+  color: #f2f4f3;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -43,6 +71,7 @@ body,
 html {
   overflow-x: hidden;
   font-family: "Roboto", sans-serif;
+  font-size: 0.937rem;
 }
 
 .page-wrapper {
@@ -54,6 +83,11 @@ html {
   position: relative;
   padding: 0 16px;
   margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #1eb9bb;
 }
 
 #navbar {

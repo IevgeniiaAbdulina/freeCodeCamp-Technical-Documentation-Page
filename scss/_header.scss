@@ -16,3 +16,31 @@
     align-items: center;
   }
 }
+
+.logo {
+  font-size: 2em;
+
+  .logo-icon::before {
+    display: block;
+    position: absolute;
+    content: "";
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 4%;
+    height: 60%;
+    top: 2px;
+    background-color: $color-primary;
+    border: 2px solid $color-primary;
+  }
+
+  .text-highlight {
+    color: $color-primary;
+    padding-left: 30px;
+  }
+
+  .text-bold {
+    color: $color-light;
+  }
+}
