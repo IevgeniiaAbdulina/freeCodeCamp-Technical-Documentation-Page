@@ -42,15 +42,13 @@
   display: block;
   position: absolute;
   content: "";
-  background-image: url(../img/logo.png);
+  background-image: url(../img/logo.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: 4%;
-  height: 60%;
-  top: 2px;
-  background-color: #1eb9bb;
-  border: 2px solid #1eb9bb;
+  width: 24px;
+  height: 24px;
+  top: 4px;
 }
 
 .logo .text-highlight {
@@ -112,4 +110,59 @@ code {
   background-color: #f1f1f1;
   padding: 2px;
   font-size: 105%;
+}
+
+.search-box form {
+  position: relative;
+  transition: all 0.6s ease-in;
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  box-sizing: border-box;
+  border-radius: 25px;
+  border: 4px solid white;
+  padding: 5px;
+}
+
+.search-box input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 42.5px;
+  line-height: 30px;
+  outline: 0;
+  border: 0;
+  display: none;
+  font-size: 1em;
+  border-radius: 20px;
+  padding: 0 20px;
+}
+
+.search-box .material-icons {
+  box-sizing: border-box;
+  padding: 10px;
+  width: 42.5px;
+  height: 42.5px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+  color: #2e2e39;
+  text-align: center;
+  transition: all 0.6s ease-in;
+}
+
+.search-box form:hover {
+  width: 240px;
+  cursor: pointer;
+}
+
+.search-box form:hover input {
+  display: block;
+}
+
+.search-box form:hover .material-icons {
+  background: #2e2e39;
+  color: white;
 }

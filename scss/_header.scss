@@ -24,15 +24,13 @@
     display: block;
     position: absolute;
     content: "";
-    background-image: url(../img/logo.png);
+    background-image: url(../img/logo.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 4%;
-    height: 60%;
-    top: 2px;
-    background-color: $color-primary;
-    border: 2px solid $color-primary;
+    width: 24px;
+    height: 24px;
+    top: 4px;
   }
 
   .text-highlight {
