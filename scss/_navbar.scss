@@ -1,15 +1,12 @@
-#navbar {
-  min-width: 290px;
-  position: fixed;
-  //   top: 0px;
-  //   left: 0px;
-  width: 300px;
-  height: 100%;
+.navbar {
+  display: flex;
+  flex-flow: column nowrap;
+  overflow-x: hidden;
+  min-width: 120px;
 }
 
-/* mobile */
 @media (max-width: 600px) {
-  #navbar {
+  .navbar {
     display: none;
   }
 }
