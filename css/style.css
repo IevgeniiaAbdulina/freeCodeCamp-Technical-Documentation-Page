@@ -98,6 +98,24 @@ a {
   text-align: center;
 }
 
+.doc-header .doc-title {
+  color: #1eb9bb;
+  font-size: 2em;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.doc-header .meta {
+  color: #2e2e39;
+  font-size: 1em;
+  opacity: 0.6;
+}
+
+.doc-header .meta .material-icons {
+  font-size: inherit;
+  vertical-align: -0.125em;
+}
+
 .doc-container {
   position: relative;
   display: flex;
