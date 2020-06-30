@@ -70,6 +70,7 @@ html {
   overflow-x: hidden;
   font-family: "Roboto", sans-serif;
   font-size: 0.937rem;
+  color: #000000;
 }
 
 .page-wrapper {
@@ -85,7 +86,6 @@ html {
 
 a {
   text-decoration: none;
-  color: #1eb9bb;
 }
 
 .doc-wrapper {
@@ -117,11 +117,41 @@ a {
   padding: 0 16px;
 }
 
-.navbar {
+nav {
   display: flex;
   flex-flow: column nowrap;
-  overflow-x: hidden;
+  overflow-y: auto;
   min-width: 120px;
+}
+
+nav header {
+  padding: 8px 0;
+  font-size: 1em;
+  color: #1eb9bb;
+}
+
+nav a {
+  font-size: 1.2em;
+  font-weight: 400;
+  color: #2e2e39;
+  padding: 8px 16px;
+  opacity: 0.6;
+}
+
+nav a:hover {
+  color: #1eb9bb;
+  background-color: #f1efef;
+  opacity: 1;
+}
+
+nav a:hover::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  background-color: #1eb9bb;
+  width: 4px;
+  height: 20px;
+  left: 16px;
 }
 
 @media (max-width: 600px) {

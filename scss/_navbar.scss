@@ -1,8 +1,38 @@
-.navbar {
+nav {
   display: flex;
   flex-flow: column nowrap;
-  overflow-x: hidden;
+  overflow-y: auto;
   min-width: 120px;
+
+  header {
+    padding: 8px 0;
+    font-size: 1em;
+    color: $color-primary;
+  }
+
+  a {
+    font-size: 1.2em;
+    font-weight: $font-weight-regular;
+    color: $color-info;
+    padding: 8px 16px;
+    opacity: 0.6;
+  }
+
+  a:hover {
+    color: $color-primary;
+    background-color: $border-color;
+    opacity: 1;
+  }
+
+  a:hover::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    background-color: $color-primary;
+    width: 4px;
+    height: 20px;
+    left: 16px;
+  }
 }
 
 @media (max-width: 600px) {
