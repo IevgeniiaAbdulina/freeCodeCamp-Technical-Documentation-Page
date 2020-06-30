@@ -16,12 +16,14 @@ nav {
     color: $color-info;
     padding: 8px 16px;
     opacity: 0.6;
+    transition: 0.2s;
   }
 
   a:hover {
     color: $color-primary;
     background-color: $border-color;
     opacity: 1;
+    transition: 0.2s;
   }
 
   a:hover::before {
@@ -32,6 +34,7 @@ nav {
     width: 4px;
     height: 20px;
     left: 16px;
+    transition: 0.2s;
   }
 }
 

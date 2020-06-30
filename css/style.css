@@ -16,6 +16,33 @@
 /* === Core Styles === */
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700");
+h2 {
+  font-size: 1.625em;
+  font-weight: 700;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #d7d7d7;
+}
+
+h3 {
+  font-size: 1.25em;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+h6 {
+  font-size: 1.25em;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
 #header {
   padding: 30px 0;
   background-color: #2e2e39;
@@ -154,12 +181,14 @@ nav a {
   color: #2e2e39;
   padding: 8px 16px;
   opacity: 0.6;
+  transition: 0.2s;
 }
 
 nav a:hover {
   color: #1eb9bb;
-  background-color: #f1efef;
+  background-color: #d7d7d7;
   opacity: 1;
+  transition: 0.2s;
 }
 
 nav a:hover::before {
@@ -170,6 +199,7 @@ nav a:hover::before {
   width: 4px;
   height: 20px;
   left: 16px;
+  transition: 0.2s;
 }
 
 @media (max-width: 600px) {
