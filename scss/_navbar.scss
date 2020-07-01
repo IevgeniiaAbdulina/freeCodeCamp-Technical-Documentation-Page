@@ -18,14 +18,14 @@ nav {
   a {
     font-size: 1.2em;
     font-weight: $font-weight-regular;
-    color: $text-muted;
+    color: $gray;
     padding: 8px 16px;
     transition: 0.2s;
   }
 
   a:hover {
     color: $color-primary;
-    background-color: $gray-lightest;
+    background-color: $color-light;
     transition: 0.2s;
   }
 

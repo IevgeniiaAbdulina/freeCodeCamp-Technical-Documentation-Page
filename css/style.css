@@ -45,7 +45,7 @@ a {
 
 .doc-wrapper {
   padding: 150px 0;
-  background: #f2f4f3;
+  background: #fff;
 }
 
 .doc-header {
@@ -87,6 +87,45 @@ a {
 
 .content {
   padding: 0 16px;
+}
+
+.color-block {
+  justify-content: center;
+  color: #f2f4f3;
+}
+
+.color-block .content {
+  margin: 1em 0;
+  flex: 1;
+}
+
+.color-box {
+  text-align: center;
+}
+
+.color-box p {
+  text-transform: uppercase;
+  font-size: 0.875em;
+}
+
+.color-primary {
+  background-color: #1eb9bb;
+}
+
+.color-success {
+  background-color: #06d6a0;
+}
+
+.color-info {
+  background-color: #2e2e39;
+}
+
+.color-warning {
+  background-color: #ffc43d;
+}
+
+.color-danger {
+  background-color: #f44336;
 }
 
 #header {
@@ -197,14 +236,14 @@ nav header {
 nav a {
   font-size: 1.2em;
   font-weight: 400;
-  color: #a7afb7;
+  color: #494d55;
   padding: 8px 16px;
   transition: 0.2s;
 }
 
 nav a:hover {
   color: #1eb9bb;
-  background-color: #e6e9ed;
+  background-color: #f2f4f3;
   transition: 0.2s;
 }
 
@@ -236,6 +275,12 @@ h3 {
   font-size: 1.25em;
   font-weight: 700;
   margin-bottom: 0.5rem;
+}
+
+h4 {
+  text-transform: uppercase;
+  font-size: 1em;
+  padding: 1rem;
 }
 
 h6 {
