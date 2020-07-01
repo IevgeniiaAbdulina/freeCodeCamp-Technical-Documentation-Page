@@ -250,6 +250,35 @@ p {
 
 /*-----------------------------------*/
 /* === Components === */
+button {
+  padding: 0.375rem 0.75rem;
+  background: #1eb9bb;
+  color: #f2f4f3;
+  border: 0;
+  border-radius: 0.25rem;
+  transition: all 0.4s ease-in-out;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+button span {
+  margin-right: 5px;
+  position: relative;
+  top: 3px;
+}
+
+button:hover {
+  background: #1a9c9e;
+}
+
+button:focus {
+  outline: #178a8c auto 1px;
+}
+
 code {
   font-family: "Roboto Mono", monospace;
   color: yellowgreen;
