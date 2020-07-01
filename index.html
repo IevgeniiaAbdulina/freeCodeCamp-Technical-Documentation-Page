@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./img/favicon.svg">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/themes/prism-okaidia.min.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -167,18 +168,26 @@
                                         <h2>Code</h2>
                                     </header>
                                     <div class="section-block">
-                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-                                            ligula
-                                            eget dolor. Aenean massa.</p>
+                                        <p><a href="https://prismjs.com/">PrismJS</a> is used as the syntax highlighter
+                                            here. You can <a href="https://prismjs.com/download.html">build your own
+                                                version</a> via their website should you need to.</p>
                                     </div>
 
                                     <div id="html" class="section-block">
                                         <div class="code-block">
                                             <h6>HTML Code Example</h6>
-                                            <pre class="language-markup">
-                                                <code class="language-markup">
-                                                    some text
-                                                </code>
+                                            <pre>
+                                                <code class="language-html">
+                                                &lt;div id=&quot;basic-buttons&quot; class=&quot;col&quot;&gt; 
+                                                    &lt;div class=&quot;content&quot;&gt; 
+                                                        &lt;h6&gt;Basic Buttons&lt;/h6&gt; 
+                                                        &lt;ul class=&quot;buttons-list&quot;&gt; 
+                                                            &lt;li&gt;1&lt;/li&gt; 
+                                                            &lt;li&gt;4&lt;/li&gt; 
+                                                            &lt;li&gt;5&lt;/li&gt; 
+                                                        &lt;/ul&gt; 
+                                                    &lt;/div&gt; 
+                                                &lt;/div&gt;</code>
                                             </pre>
                                         </div>
                                     </div>
@@ -186,23 +195,44 @@
                                     <div id="css" class="section-block">
                                         <div class="code-block">
                                             <h6>CSS Code Example</h6>
-                                            <pre class="language-markup">
-                                                <code class="language-markup">
-                                                    some text
-                                                </code>
-                                            </pre>
+                                            <pre><code class="language-css">body {
+                                              font: 100% Helvetica, sans-serif;
+                                              color: #333;
+                                            }
+                                            
+                                            .box {
+                                              -webkit-border-radius: 10px;
+                                              -moz-border-radius: 10px;
+                                              -ms-border-radius: 10px;
+                                              border-radius: 10px;
+                                            }</code></pre>
                                         </div>
                                     </div>
 
 
-                                    <div id="scss" class="section-block">
+                                    <div id="codepen" class="section-block">
                                         <div class="code-block">
-                                            <h6>SCSS Code Example</h6>
-                                            <pre class="language-markup">
-                                                <code class="language-markup">
-                                                    some text
-                                                </code>
-                                            </pre>
+                                            <h6>Embedded pen from CodePen</h6>
+                                            <p class="codepen" data-height="265" data-theme-id="dark"
+                                                data-default-tab="html" data-user="ievgeniiaabdulina"
+                                                data-slug-hash="YzwrYwY"
+                                                style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"
+                                                data-pen-title="Fork Me! FCC: Technical-Documentation-Page">
+                                                <span>See the Pen <a
+                                                        href="https://codepen.io/ievgeniiaabdulina/pen/YzwrYwY">
+                                                        Fork Me! FCC: Technical-Documentation-Page</a> by Ievgeniia (<a
+                                                        href="https://codepen.io/ievgeniiaabdulina">@ievgeniiaabdulina</a>)
+                                                    on <a href="https://codepen.io">CodePen</a>.</span>
+                                            </p>
+                                            <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+                                        </div>
+                                    </div>
+
+                                    <div id="github" class="section-block">
+                                        <div class="code-block">
+                                            <h6>GitHub Embedded Code Snippets</h6>
+                                            <script
+                                                src="https://gist.github.com/IevgeniiaAbdulina/5c4f7f6e2a031286e79b2aff4e078323.js"></script>
                                         </div>
                                     </div>
 
@@ -308,6 +338,7 @@
             Abdulina</a>.
     </footer>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
 </body>
 
 </html>

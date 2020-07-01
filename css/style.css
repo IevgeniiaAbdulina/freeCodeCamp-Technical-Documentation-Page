@@ -137,12 +137,16 @@ main {
   color: #494d55;
 }
 
-.section-block {
-  padding: 16px 0;
+main a {
+  color: #1eb9bb;
 }
 
-.code-block {
-  margin: 30px 0;
+main a:hover {
+  text-decoration: underline;
+}
+
+.section-block {
+  padding: 16px 0;
 }
 
 .row {
@@ -279,12 +283,18 @@ button:focus {
   outline: #178a8c auto 1px;
 }
 
+.code-block {
+  margin: 20px 0;
+}
+
 code {
   font-family: "Roboto Mono", monospace;
-  color: yellowgreen;
-  background-color: #000;
-  padding: 2px;
-  font-size: 1em;
+  font-size: 0.875em;
+  font-weight: 700;
+  padding: 4px 8px;
+  color: #f2f4f3;
+  background-color: #2e2e39;
+  white-space: pre-line !important;
 }
 
 .search-box form {
