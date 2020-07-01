@@ -16,50 +16,6 @@
 /* === Core Styles === */
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700");
-#header {
-  padding: 30px 0;
-  background-color: #2e2e39;
-  color: #f2f4f3;
-  border-top: 5px solid #1eb9bb;
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 3;
-}
-
-#header .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  font-size: 2em;
-}
-
-.logo .logo-icon::before {
-  display: block;
-  position: absolute;
-  content: "";
-  background-image: url(../img/logo.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 24px;
-  height: 24px;
-  top: 12px;
-}
-
-.logo .text-highlight {
-  color: #1eb9bb;
-  padding-left: 30px;
-}
-
-.logo .text-bold {
-  color: #f2f4f3;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -130,8 +86,60 @@ a {
   max-width: 75%;
 }
 
-.doc-container .content {
+.content {
   padding: 0 16px;
+}
+
+#header {
+  padding: 30px 0;
+  background-color: #2e2e39;
+  color: #f2f4f3;
+  border-top: 5px solid #1eb9bb;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 3;
+}
+
+#header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 2em;
+}
+
+.logo .logo-icon::before {
+  display: block;
+  position: absolute;
+  content: "";
+  background-image: url(../img/logo.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 24px;
+  height: 24px;
+  top: 12px;
+}
+
+.logo .text-highlight {
+  color: #1eb9bb;
+  padding-left: 30px;
+}
+
+.logo .text-bold {
+  color: #f2f4f3;
+}
+
+.section-block {
+  padding: 16px 0;
+}
+
+.code-block {
+  margin: 30px 0;
 }
 
 .nav-fixed {

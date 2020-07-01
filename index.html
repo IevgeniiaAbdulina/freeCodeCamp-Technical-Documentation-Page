@@ -48,8 +48,9 @@
 
                 <div class="doc-container">
                     <div class="nav-doc-container">
-                        <div class="content">
-                            <div class="nav-fixed">
+                        <div class="nav-fixed">
+
+                            <div class="content">
                                 <nav id="navbar" class="navbar">
                                     <header>
                                         <h3>Getting started</h3>
@@ -62,6 +63,7 @@
                                 </nav>
                             </div>
                         </div>
+
                     </div>
 
                     <div class="main-doc-container">
@@ -71,37 +73,44 @@
                                     <header>
                                         <h2>Download</h2>
                                     </header>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec imperdiet
-                                        turpis. Curabitur aliquet pulvinar
-                                        ultrices. Etiam at posuere leo. Proin ultrices ex et dapibus feugiat <a
-                                            href="#">link example</a> aenean purus leo, faucibus at elit
-                                        vel, aliquet scelerisque dui. Etiam quis elit euismod, imperdiet augue sit amet,
-                                        imperdiet odio. Aenean sem erat,
-                                        hendrerit eu gravida id, dignissim ut ante. Nam consequat porttitor libero
-                                        euismod congue.</p>
-                                    <button class="download-button">
-                                        <span class="material-icons">
-                                            save_alt
-                                        </span> Download ai.Docs
-                                    </button>
+                                    <div class="section-block">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec imperdiet
+                                            turpis. Curabitur aliquet pulvinar
+                                            ultrices. Etiam at posuere leo. Proin ultrices ex et dapibus feugiat <a
+                                                href="#">link example</a> aenean purus leo, faucibus at elit
+                                            vel, aliquet scelerisque dui. Etiam quis elit euismod, imperdiet augue sit
+                                            amet,
+                                            imperdiet odio. Aenean sem erat,
+                                            hendrerit eu gravida id, dignissim ut ante. Nam consequat porttitor libero
+                                            euismod congue.</p>
+                                        <button class="download-button">
+                                            <span class="material-icons">
+                                                save_alt
+                                            </span> Download ai.Docs
+                                        </button>
+                                    </div>
                                 </section>
 
                                 <section id="Installation" class="main-section">
                                     <header>
                                         <h2>Installation</h2>
                                     </header>
-                                    <h3>Step One</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
-                                        eget dolor. Aenean massa. Cum sociis
-                                        natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec
-                                        quam felis.</p>
+                                    <div id="step1" class="section-block">
+                                        <h3>Step One</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                                            ligula
+                                            eget dolor. Aenean massa. Cum sociis
+                                            natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                                            Donec
+                                            quam felis.</p>
 
-                                    <div class="code-block">
-                                        <h6>Default code example:</h6>
-                                        <p><code>bower install &lt;package&gt;</code></p>
-                                        <p><code>npm install &lt;package&gt;</code></p>
+                                        <div class="code-block">
+                                            <h6>Default code example:</h6>
+                                            <p><code>bower install &lt;package&gt;</code></p>
+                                            <p><code>npm install &lt;package&gt;</code></p>
+                                        </div>
                                     </div>
-                                    <div class="step2">
+                                    <div id="step2" class="section-block">
                                         <h3>Step Two</h3>
                                         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
                                             ligula eget dolor. Aenean massa.</p>
@@ -140,7 +149,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="step3">
+                                    <div id="step3" class="section-block">
                                         <h3>Step Three</h3>
                                         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
                                             ligula eget dolor. Aenean massa. Cum sociis
@@ -151,87 +160,110 @@
 
                                 <section id="Code" class="main-section">
                                     <header>
-                                        <h3>Code</h3>
+                                        <h2>Code</h2>
                                     </header>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
-                                        eget dolor. Aenean massa.</p>
-                                    <div id="html" class="code-block">
-                                        <h6>HTML Code Example</h6>
-                                        <pre class="language-markup">
-                                                <code class="language-markup">
-                                                    some text
-                                                </code>
-                                            </pre>
+                                    <div class="section-block">
+                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                                            ligula
+                                            eget dolor. Aenean massa.</p>
                                     </div>
 
-                                    <div id="css" class="code-block">
-                                        <h6>CSS Code Example</h6>
-                                        <pre class="language-markup">
+                                    <div id="html" class="section-block">
+                                        <div class="code-block">
+                                            <h6>HTML Code Example</h6>
+                                            <pre class="language-markup">
                                                 <code class="language-markup">
                                                     some text
                                                 </code>
                                             </pre>
+                                        </div>
                                     </div>
 
-                                    <div id="scss" class="code-block">
-                                        <h6>SCSS Code Example</h6>
-                                        <pre class="language-markup">
+                                    <div id="css" class="section-block">
+                                        <div class="code-block">
+                                            <h6>CSS Code Example</h6>
+                                            <pre class="language-markup">
                                                 <code class="language-markup">
                                                     some text
                                                 </code>
                                             </pre>
+                                        </div>
                                     </div>
+
+
+                                    <div id="scss" class="section-block">
+                                        <div class="code-block">
+                                            <h6>SCSS Code Example</h6>
+                                            <pre class="language-markup">
+                                                <code class="language-markup">
+                                                    some text
+                                                </code>
+                                            </pre>
+                                        </div>
+                                    </div>
+
                                 </section>
 
                                 <section id="Color_Scheme" class="main-section">
                                     <header>
-                                        <h3>Color Scheme</h3>
+                                        <h2>Color Scheme</h2>
                                     </header>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
-                                        eget dolor. Aenean massa. Cum sociis
-                                        natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec
-                                        quam felis, ultricies nec, pellentesque
-                                        eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo,
-                                        fringilla vel, aliquet nec, vulputate eget,
-                                        arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
-                                    <div class="color-block">
-                                        <div class="content color-primary">
-                                            <h4>#HEX</h4>
-                                            <p>COLOR NAME</p>
-                                        </div>
-                                        <div class="content color-secndary">
-                                            <h4>#HEX</h4>
-                                            <p>COLOR NAME</p>
-                                        </div>
-                                        <div class="content color-info">
-                                            <h4>#HEX</h4>
-                                            <p>COLOR NAME</p>
-                                        </div>
-                                        <div class="content color-warning">
-                                            <h4>#HEX</h4>
-                                            <p>COLOR NAME</p>
-                                        </div>
-                                        <div class="content color-danger">
-                                            <h4>#HEX</h4>
-                                            <p>COLOR NAME</p>
+                                    <div class="section-block">
+                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                                            ligula
+                                            eget dolor. Aenean massa. Cum sociis
+                                            natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                                            Donec
+                                            quam felis, ultricies nec, pellentesque
+                                            eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo,
+                                            fringilla vel, aliquet nec, vulputate eget,
+                                            arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
+                                    </div>
+
+                                    <div class="section-block">
+                                        <div class="color-block">
+                                            <div class="content color-primary">
+                                                <h4>#HEX</h4>
+                                                <p>COLOR NAME</p>
+                                            </div>
+                                            <div class="content color-secndary">
+                                                <h4>#HEX</h4>
+                                                <p>COLOR NAME</p>
+                                            </div>
+                                            <div class="content color-info">
+                                                <h4>#HEX</h4>
+                                                <p>COLOR NAME</p>
+                                            </div>
+                                            <div class="content color-warning">
+                                                <h4>#HEX</h4>
+                                                <p>COLOR NAME</p>
+                                            </div>
+                                            <div class="content color-danger">
+                                                <h4>#HEX</h4>
+                                                <p>COLOR NAME</p>
+                                            </div>
                                         </div>
                                     </div>
+
                                 </section>
 
                                 <section id="Buttons" class="main-section">
                                     <header>
-                                        <h3>Buttons</h3>
+                                        <h2>Buttons</h2>
                                     </header>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec imperdiet
-                                        turpis. Curabitur aliquet pulvinar
-                                        ultrices. Etiam at posuere leo. Proin ultrices ex et dapibus feugiat link
-                                        example aenean purus leo, faucibus at elit
-                                        vel, aliquet scelerisque dui. Etiam quis elit euismod, imperdiet augue sit amet,
-                                        imperdiet odio. Aenean sem erat,
-                                        hendrerit eu gravida id, dignissim ut ante. Nam consequat porttitor libero
-                                        euismod congue.</p>
+                                    <div class="section-block">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec imperdiet
+                                            turpis. Curabitur aliquet pulvinar
+                                            ultrices. Etiam at posuere leo. Proin ultrices ex et dapibus feugiat link
+                                            example aenean purus leo, faucibus at elit
+                                            vel, aliquet scelerisque dui. Etiam quis elit euismod, imperdiet augue sit
+                                            amet,
+                                            imperdiet odio. Aenean sem erat,
+                                            hendrerit eu gravida id, dignissim ut ante. Nam consequat porttitor libero
+                                            euismod congue.</p>
+                                    </div>
                                     <div class="row">
-                                        <div class="basic-buttons">
+                                        <div id="basic-buttons" class="buttons">
                                             <h6>Basic Buttons</h6>
                                             <ul class="buttons-list">
                                                 <li>1</li>
@@ -241,7 +273,7 @@
                                                 <li>5</li>
                                             </ul>
                                         </div>
-                                        <div class="cta-buttons">
+                                        <div id="cta-buttons" class="buttons">
                                             <h6>Basic Buttons</h6>
                                             <ul class="cta-buttons-list">
                                                 <li>1</li>

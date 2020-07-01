@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  overflow-x: hidden;
+  font-family: $main-font-family;
+  font-size: $default-font-size;
+  color: $color-dark;
+}
+
+.page-wrapper {
+  min-height: 100%;
+}
+
+.container {
+  width: 80vw;
+  position: relative;
+  padding: $container-padding;
+  margin: $container-margin;
+}
+
+a {
+  text-decoration: none;
+}
+
+.doc-wrapper {
+  padding: 150px 0;
+  background: $color-light;
+}
+
+.doc-header {
+  margin-bottom: 30px;
+  text-align: center;
+
+  .doc-title {
+    color: $color-primary;
+    font-size: 2em;
+    font-weight: $font-weight-bold;
+    margin-bottom: 0.5rem;
+  }
+
+  .meta {
+    color: $text-muted;
+    font-size: 1em;
+
+    .material-icons {
+      font-size: inherit;
+      vertical-align: -0.125em;
+    }
+  }
+}
+
+.doc-container {
+  position: relative;
+  display: flex;
+
+  .nav-doc-container {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .main-doc-container {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+}
+
+.content {
+  padding: $container-padding;
+}
