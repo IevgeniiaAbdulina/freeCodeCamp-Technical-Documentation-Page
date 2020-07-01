@@ -215,6 +215,15 @@ main a:hover {
   margin: 5px 0 0;
 }
 
+.buttons-list ul {
+  list-style: none;
+  margin: 0 0 1rem;
+}
+
+.buttons-list ul li {
+  margin: 0 0 10px;
+}
+
 .nav-fixed {
   position: fixed;
 }
@@ -300,8 +309,7 @@ p {
 /*-----------------------------------*/
 /* === Components === */
 button {
-  padding: 0.375rem 0.75rem;
-  background: #1eb9bb;
+  padding: 0.625rem 1rem;
   color: #f2f4f3;
   border: 0;
   border-radius: 0.25rem;
@@ -309,23 +317,54 @@ button {
   font-size: 1rem;
   font-weight: 700;
   line-height: 1.5;
-  text-align: center;
-  vertical-align: middle;
   cursor: pointer;
+  display: flex;
+  align-items: center;
 }
 
 button span {
-  margin-right: 5px;
+  margin-right: 0.5rem;
   position: relative;
-  top: 3px;
 }
 
-button:hover {
-  background: #1a9c9e;
+.btn-primary {
+  background: #1eb9bb;
 }
 
-button:focus {
-  outline: #178a8c auto 1px;
+.btn-primary:hover {
+  background: #178e8f;
+}
+
+.btn-green {
+  background: #06d6a0;
+}
+
+.btn-green:hover {
+  background: #05a47b;
+}
+
+.btn-yellow {
+  background: #ffc43d;
+}
+
+.btn-yellow:hover {
+  background: #f0a700;
+}
+
+.btn-orange {
+  background: #f77f00;
+}
+
+.btn-orange:hover {
+  background: #c46500;
+}
+
+.btn-red {
+  background: #f44336;
+}
+
+.btn-red:hover {
+  background: #ea1c0d;
 }
 
 .code-block {
