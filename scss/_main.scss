@@ -10,6 +10,10 @@ main {
   }
 }
 
+section {
+  padding: 2rem 0;
+}
+
 .section-block {
   padding: 16px 0;
 }
@@ -49,5 +53,15 @@ main {
     li {
       margin: 0 0 10px;
     }
+  }
+}
+
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+  .col {
+    flex: 1;
+    max-width: 100%;
   }
 }

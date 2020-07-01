@@ -54,3 +54,9 @@
     transition: all 0.6s ease-in;
   }
 }
+
+@media (max-width: 768px) {
+  .search-box {
+    display: none;
+  }
+}

@@ -1,7 +1,7 @@
 #header {
   padding: 30px 0;
   background-color: $header-bg-color;
-  color: $color-light;
+  color: $header-color;
   border-top: 5px solid $header-border-color;
 
   position: fixed;
@@ -40,5 +40,11 @@
 
   .text-bold {
     color: $color-light;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo::before {
+    top: 4px;
   }
 }
