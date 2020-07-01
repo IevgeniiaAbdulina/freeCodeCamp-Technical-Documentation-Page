@@ -21,23 +21,23 @@ nav {
     color: $gray;
     padding: 8px 16px;
     transition: 0.2s;
-  }
 
-  a:hover {
-    color: $color-primary;
-    background-color: $color-light;
-    transition: 0.2s;
-  }
+    &:hover {
+      color: $color-primary;
+      background-color: $color-light;
+      transition: 0.2s;
+    }
 
-  a:hover::before {
-    content: "";
-    display: inline-block;
-    position: absolute;
-    background-color: $color-primary;
-    width: 4px;
-    height: 20px;
-    left: 0;
-    transition: 0.2s;
+    &:hover::before {
+      content: "";
+      display: inline-block;
+      position: absolute;
+      background-color: $color-primary;
+      width: 4px;
+      height: 20px;
+      left: 0;
+      transition: 0.2s;
+    }
   }
 }
 

@@ -1,0 +1,15 @@
+footer {
+  padding: 2rem 0;
+  text-align: center;
+  font-size: 1.25em;
+  background: $color-info;
+  color: $color-light;
+
+  a {
+    color: $color-primary;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

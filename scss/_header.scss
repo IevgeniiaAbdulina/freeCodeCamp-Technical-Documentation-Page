@@ -20,7 +20,7 @@
 .logo {
   font-size: 2em;
 
-  .logo-icon::before {
+  &::before {
     display: block;
     position: absolute;
     content: "";

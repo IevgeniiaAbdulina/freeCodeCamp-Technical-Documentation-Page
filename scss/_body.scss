@@ -10,6 +10,10 @@ html {
   font-size: $default-font-size;
 }
 
+::selection {
+  color: $color-warning;
+}
+
 .page-wrapper {
   min-height: 100%;
 }
