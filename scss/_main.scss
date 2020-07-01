@@ -43,9 +43,8 @@ a {
   }
 
   .meta {
-    color: $color-info;
+    color: $text-muted;
     font-size: 1em;
-    opacity: 0.6;
 
     .material-icons {
       font-size: inherit;
@@ -70,4 +69,8 @@ a {
   .content {
     padding: $container-padding;
   }
+}
+
+.nav-fixed {
+  position: fixed;
 }

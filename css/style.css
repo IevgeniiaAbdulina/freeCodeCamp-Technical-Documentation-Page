@@ -16,33 +16,6 @@
 /* === Core Styles === */
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700");
-h2 {
-  font-size: 1.625em;
-  font-weight: 700;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #d7d7d7;
-}
-
-h3 {
-  font-size: 1.25em;
-  font-weight: 700;
-  margin-bottom: 0.5rem;
-}
-
-h6 {
-  font-size: 1.25em;
-  font-weight: 700;
-  line-height: 1.2;
-  margin-bottom: 0.5rem;
-}
-
-p {
-  font-size: 1em;
-  font-weight: 400;
-  line-height: 1.5;
-  margin-bottom: 1rem;
-}
-
 #header {
   padding: 30px 0;
   background-color: #2e2e39;
@@ -133,9 +106,8 @@ a {
 }
 
 .doc-header .meta {
-  color: #2e2e39;
+  color: #a7afb7;
   font-size: 1em;
-  opacity: 0.6;
 }
 
 .doc-header .meta .material-icons {
@@ -162,7 +134,12 @@ a {
   padding: 0 16px;
 }
 
+.nav-fixed {
+  position: fixed;
+}
+
 nav {
+  position: relative;
   display: flex;
   flex-flow: column nowrap;
   overflow-y: auto;
@@ -178,16 +155,14 @@ nav header {
 nav a {
   font-size: 1.2em;
   font-weight: 400;
-  color: #2e2e39;
+  color: #a7afb7;
   padding: 8px 16px;
-  opacity: 0.6;
   transition: 0.2s;
 }
 
 nav a:hover {
   color: #1eb9bb;
-  background-color: #d7d7d7;
-  opacity: 1;
+  background-color: #e6e9ed;
   transition: 0.2s;
 }
 
@@ -198,7 +173,7 @@ nav a:hover::before {
   background-color: #1eb9bb;
   width: 4px;
   height: 20px;
-  left: 16px;
+  left: 0;
   transition: 0.2s;
 }
 
@@ -206,6 +181,33 @@ nav a:hover::before {
   .navbar {
     display: none;
   }
+}
+
+h2 {
+  font-size: 1.625em;
+  font-weight: 700;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #d7d7d7;
+}
+
+h3 {
+  font-size: 1.25em;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+h6 {
+  font-size: 1.25em;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 1rem;
 }
 
 /*-----------------------------------*/

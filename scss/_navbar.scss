@@ -1,4 +1,5 @@
 nav {
+  position: relative;
   display: flex;
   flex-flow: column nowrap;
   overflow-y: auto;
@@ -13,16 +14,14 @@ nav {
   a {
     font-size: 1.2em;
     font-weight: $font-weight-regular;
-    color: $color-info;
+    color: $text-muted;
     padding: 8px 16px;
-    opacity: 0.6;
     transition: 0.2s;
   }
 
   a:hover {
     color: $color-primary;
-    background-color: $border-color;
-    opacity: 1;
+    background-color: $gray-lightest;
     transition: 0.2s;
   }
 
@@ -33,7 +32,7 @@ nav {
     background-color: $color-primary;
     width: 4px;
     height: 20px;
-    left: 16px;
+    left: 0;
     transition: 0.2s;
   }
 }
